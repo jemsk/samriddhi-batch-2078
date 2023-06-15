@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+Pro&display=swap');
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*** Typography **/
+
+
+h1, h2 , h3  {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+header {
+    background-color: #78586F;
+    color: white;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.intro {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px;
+}
+
+.my-skills {
+    background-color: #779CA6;
+    color: white;
+    padding: 100px 0px;
+
+}
+
+
+/*** Layout **/
+
+
+.columns {
+    width: 750px; 
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: center;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.column {
+    /* margin: 10px; */
+
+}
+
+.my-skills h2{
+    text-align: center;
+}
+
+

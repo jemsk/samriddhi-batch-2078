@@ -1,0 +1,20 @@
+* {
+    --primary-clr: #ED6502;
+    --primary-blue-clr: #005EB8;
+    --secondary-blue-clr: #0D7DE8;
+    --secondary-clr: #3C3C3C;
+    --gray-shade-1: #D5D5D5;
+    --gray-shade-2: #D9D9D9;
+
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#profile-pic-1 {
+    border: 10px solid var(--gray-shade-2);
+    box-shadow: 12px 10px 3px var(--gray-shade-1) ;
+}

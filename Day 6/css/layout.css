@@ -1,0 +1,37 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #f2f2f2;
+    padding: 1em;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin-top: 1rem;
+}
+p {
+    padding: 10px;
+}
+
+main {
+    width: 60%;
+    background-color: #a995ff;
+    float: left;
+}
+aside {
+    background-color: limegreen;
+    width: 40%;
+    float: right;
+}
+footer {
+    /* clear: both; */
+    background-color: #ccc;
+    padding: 1em;
+}
+
+.clearfix {
+    clear: both;
+
+}

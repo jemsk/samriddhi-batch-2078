@@ -1,0 +1,44 @@
+body {
+    font-size: 2em;
+    box-sizing: border-box;
+}
+
+div {
+    font-size: 17rem;
+}
+main {
+
+    padding: 20px;
+    border : 10px solid rebeccapurple;
+    width: 50%;
+ }
+/*
+ header {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 1em 1em;
+    border: 10px solid red;
+    padding: 30px;
+
+    border-left-style: dashed;
+    border-left-color: blue;
+    border-left-width: 30px;
+}
+
+.box {
+
+    width: 700px;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 30px;
+
+    border: 40px solid red;
+}
+
+.box1 {
+    box-sizing: border-box;
+}
+.box2 {
+    box-sizing: content-box;
+}  */
